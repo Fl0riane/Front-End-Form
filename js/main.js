@@ -17,11 +17,14 @@ document.addEventListener("DOMContentLoaded", () => {
       message,
     });
 
-    const response = await axios.post("http://localhost:3000/form", {
-      firstname,
-      lastname,
-      email,
-      message,
-    });
+    const response = await axios.post(
+      "https://app.northflank.com/u/floriane/project/projet-vinted/services/back-end-formulaire/instances",
+      {
+        firstname,
+        lastname,
+        email,
+        message,
+      }
+    );
   });
 });
