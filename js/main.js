@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const response = await axios.post(
-      "https://site--back-end-formulaire--p2d7k4xwpzzq.code.run",
+      "https://site--back-end-formulaire--p2d7k4xwpzzq.code.run/form",
       {
         firstname,
         lastname,
