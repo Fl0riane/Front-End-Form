@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const response = await axios.post(
-      "https://app.northflank.com/u/floriane/project/projet-vinted/services/back-end-formulaire/instances",
+      "https://site--back-end-formulaire--p2d7k4xwpzzq.code.run",
       {
         firstname,
         lastname,
