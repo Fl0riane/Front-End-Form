@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
     const response = await axios.post(
-      "https://github.com/Fl0riane/Back-End-Form/blob/00baf25651b837d1b838de5c4a6f738f8564c449/index.js/form",
+      "https://site--back-end-formulaire--p2d7k4xwpzzq.code.run/form",
       {
         firstname,
         lastname,
